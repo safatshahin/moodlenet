@@ -60,6 +60,18 @@ export const MainLayout: FC<PropsWithChildren<MainLayoutProps & MainLayoutUIProp
             }
             className="content"
           >
+            <div className="service-retirement-notice">
+              <p>
+                <strong>Notice of Service Retirement</strong>
+              </p>
+              <p>
+                <strong>
+                  moodle.net will shut down on 20 April 2026. Please download any content or data
+                  you wish to keep before this date, as the service and all associated accounts will
+                  be permanently shut down after that date.
+                </strong>
+              </p>
+            </div>
             {children}
           </div>
           <MainFooter {...footerProps} />
